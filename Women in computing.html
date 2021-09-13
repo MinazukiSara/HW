@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Women in computing</title>
+</head>
+<style>
+	.whole {
+		background-color: whitesmoke;
+	}
+	.first {
+		background-color: DarkCyan;
+		padding: 5px 5px 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.first-front {
+		display: flex;
+		justify-content: space-between;
+	}
+	.first-back {
+		color: white;
+	}
+	.title {
+		color: white;
+	}
+	.computer-icon{
+		float: left;
+	}
+	.first-back {
+		display: flex;
+		justify-content: space-between;
+	}
+	#black-head{
+		color: white;
+		text-align: center;
+		background-color: #393939;
+		padding: 15px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	@font-face {
+		font-family: 'EntypoRegular';
+		src: url('font/font/Entypo-webfont.eot');
+		src: url('font/font/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('font/font/Entypo-webfont.woff') format('woff'),
+			 url('font/font/Entypo-webfont.ttf') format('truetype'),
+			 url('font/font/Entypo-webfont.svg#EntypoRegular') format('svg');
+			 font-weight: normal;
+			 font-style: normal;
+	}
+	
+	
+	.women {
+		padding: 20px 20px 0px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		background-color: whitesmoke;
+	}
+
+	#name{
+		color: white;
+		text-align: center;
+		background-color: black;
+		font-family: ;
+		font-size: 30px;
+		padding: 5px;
+	}
+
+	#year {
+		text-align: center;
+	}
+
+	#women-box {
+		height: 680px;
+		width: 350px;
+		padding: 10px;
+		background-color: white;
+		border: 10px solid whitesmoke; 
+		text-align: center;
+		font-size: 30px;
+	}
+
+	ul.organization {
+  		list-style-image: url('images/icons/star.png');
+  	}
+
+  	ul.organization li {
+  		padding: 20px 0px;
+  		}	
+
+  	ul.fun {
+  		list-style-image: url('images/icons/star.png');
+  	}
+
+  	ul.fun li {
+  		padding: 10px 0px;
+  		}	
+
+  	.end {
+  		font-color: white;
+  		background-color: DarkCyan;
+  		display: flex;
+  		padding: 5px 5px 10px;
+  	}
+
+  	a {
+  		color: white;
+  		text-decoration: none;
+	}
+</style>
+<body>
+<div class="whole">
+
+	<div class="first">
+		<div class="first-front">
+			<div class="computer-icon">
+				<img src="images/icons/it.png" alt="icon" width="20px" height="20px">
+			</div>
+
+			<div class="title">
+				&nbsp Women in computing
+			</div>
+		</div>
+	
+		<div class="first-back">
+			<div><a href="#famous">&nbsp Famous women &nbsp</a></div>
+			<div><a href="#fun">&nbsp Fun Facts &nbsp</a></div>
+			<div><a href="#org">&nbsp organization &nbsp</a></div>
+			
+		</div>
+	</div>
+
+	
+	<div id="black-head">
+		<div><img src="images/icons/up.jpg" width="20px" height="20px"></div>
+		<div id="famous">famous women</div>
+		<div id><a href="#org"><img src="images/icons/down.jpg" width="20px" height="20px"></a></div>
+	</div>
+
+
+	<div class="women">
+		<div id="women-box">
+			<div id="name">Ada Lovelace</div>
+			<div id="year">(1815-1852)</div>
+			<img src="images/ada_lovelace.jpg" width="350" height="350">
+			<div> An analyst of Charles Babbage's analytical engine and is often described as the "first computer programmer."
+			</div>
+		</div>
+		
+		<div id="women-box">
+			<div id="name">Grace Hopper</div>
+			<div id="year">(1906-1992)</div>
+			<img src="images/grace_hopper.jpg" width="350" height="350">
+			<div> A United State Navy officer and the first programmer of the Havard Mark I, known as the "Mother of COBOL". She developed the first ever complier for an electronic computer, known as A-0.</div>
+		</div>
+
+		<div id="women-box">
+			<div id="name"> Fances Allen </div>
+			<div id="year">(1932-)</div>
+			<img src="images/frances_allen.jpg" width="350" height="350">
+			<div>THe first female IBM Fellow in 1989. In 2006 she became the first female recipent of the ACM's Turing Award.</div>
+		</div>
+
+		<div id="women-box">
+			<div id="name">Barbara Liskov</div>
+			<div id="year">(1939-)</div>
+			<img src="images/barbara_liskov.png" width="350" height="350">
+			<div> Developed the Liskov substitution principle. Liskov was also the winner of the Turing Prize in 2008.</div>
+		</div>
+
+		<div id="women-box">
+			<div id="name">Anita Borg</div>
+			<div id="year">(1949-2003)</div>
+			<img src="images/anita_borg.jpg" width="350" height="350">
+			<div>The founding director of the institute for WOmen and Technology (IWT)</div>
+		</div>
+
+		<div id="women-box">
+			<div id="name">Maria Klawe</div>
+			<div id="year">(1951-)</div>
+			<img src="images/maria_klawe.jpg" width="350" height="350">
+			<div>The first woman to become President of Harvey Mudd College since its founding in 1955 and was ACM president from 2002 until 2004. </div>
+		</div>
+	</div>
+
+
+	<div id="black-head">
+		<div><a href="#famous"><img src="images/icons/up.jpg" width="20px" height="20px"></a></div>
+		<div id="org">organization</div>
+		<div><a href="#fun"><img src="images/icons/down.jpg" width="20px" height="20px"></a></div>
+	</div>
+
+
+	<div>
+		<p>These are ome awesome organization that help women in cmputing. This is a brief list and there are many more out there.</p>
+
+		<ul class="organization">
+  			<li>National Centern for Women & Information Technology</li>
+  			<li>Anita Borg Institute for Women and Technology</li>
+  			<li>The Ada Initiative</li>
+  			<li>Girl Develop it</li>
+  			<li>Black Girls Code</li>
+  			<li>Rails Girls</li>
+		</ul>
+
+
+	</div>
+
+
+	<div id="black-head">
+		<div><a href="#org"><img src="images/icons/up.jpg" width="20px" height="20px"></a></div>
+		<div id="fun">fun fact</div>
+		<img src="images/icons/down.jpg" width="20px" height="20px">
+	</div>
+
+	<ul class="fun">
+  			<li>Every year the Anita Borg Institute holds the Grace Hopper Celebration of Women in Computing conference to bring the research career interests of women in computing to the forefront</li>
+  			<li>25% of the computing workforce were in 2011 reference</li>
+  			<li>The DevChix google group has over 1000 members</li>
+  			<li>Girl Develop It has chapters in eleven cites</li>
+  			<li>Women earned 18% of the Computer and Information Sciences undergraduate degrees in 2010. reference</li>
+  			<li>The U.S. Bureau of Labor Statistics projects that by 2018, there will be a total of nearly 1.4 million computing-related jobs added in the U.S., an increasing of 22% from 2008. reference</li>
+  			<li>The median age of women in computing and mathematical occupations is 42. reference</li>
+  			<li>Of the 20 occupations with the highest median earnings for women, 5 are computing occupations: computer software engineers, computer and information systems managers, computer programmers, computer scientists and system analysts, and network system and data communications analysis. reference</li>
+		</ul>
+
+
+		<div class="end">
+			<div><a href="#fun">Fun Facts &nbsp</a></div>
+			<div><a href="#org">&nbsp organization &nbsp</a></div>
+			<div><a href="#famous">&nbsp Famous women &nbsp</a></div>
+		</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flip a card</title>
+</head>
+<style>
+.flip-box {
+  background-color: transparent;
+  width: 200px;
+  height: 300px;
+}
+
+.flip-box-inner {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front{
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+</style>
+<body>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <img src="poker1.jpeg" alt="Joker" width="200" height="300">
+    </div>
+    <div class="flip-box-back">
+      <img src="poker2.jpeg" alt="Joker" width="200" height="300">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
